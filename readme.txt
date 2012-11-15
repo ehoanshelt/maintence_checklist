@@ -49,4 +49,5 @@ location.jpg
 
 = 1.0 =
 * Initial Release
+* Tested for 3.4
 
