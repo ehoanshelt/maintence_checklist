@@ -10,7 +10,9 @@ License: GPL2
 */
 
 include('includes/functions.php');
-include('includes/admin_dashboard.php');
+if(is_admin()){
+	include('includes/admin_dashboard.php');
+}
 include('includes/screen-meta-links.php');
  
 //Runs that when plugin is activated
